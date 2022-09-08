@@ -1,6 +1,9 @@
 #include <stdio.h>
 
-/*Using puts to print a sentence*/
+/*
+ *main-Entry point
+ *Description - prints a sentence
+ */
 
 int main(void)
 {
