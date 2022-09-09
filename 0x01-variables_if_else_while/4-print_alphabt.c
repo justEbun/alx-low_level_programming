@@ -10,7 +10,7 @@ int main(void)
 {
 	int alpha;
 
-	for (alpha = 'a'; alpha <= 'd'; alpha++)
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
 		if (alpha != 'e' && alpha != 'q')
 		{
