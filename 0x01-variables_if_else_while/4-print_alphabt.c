@@ -16,6 +16,9 @@ int main(void)
 		{
 			putchar(alpha);
 		}
+		else
+		{
+		}
 	}
 	putchar('\n');
 	return (0);
