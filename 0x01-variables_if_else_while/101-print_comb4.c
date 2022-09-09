@@ -16,9 +16,12 @@ int main(void)
 		{
 			for (k = '0'; k <= '9'; k++)
 			{
-				putchar(c);
-				putchar(i);
-				putchar(k);
+				if (c < i && i < k)
+				{
+					putchar(c);
+					putchar(i);
+					putchar(k);
+				}
 
 				if (c != '7')
 				{
