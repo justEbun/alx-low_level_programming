@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  * Description - prints fibonacci sequence
- * return: 0
+ * Return: 0
  */
 
 int main(void)
