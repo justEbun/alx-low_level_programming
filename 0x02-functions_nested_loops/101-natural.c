@@ -19,7 +19,6 @@ int main(void)
 		}
 		i++;
 	}
-	putchar(i);
-	putchar('\n');
+	printf("%d\n", n);
 	return (0);
 }
