@@ -1,5 +1,5 @@
-#include <stdio.h>
 #include "main.h"
+
 /**
  * main - check the code
  *
@@ -19,10 +19,4 @@ void print_alphabet_x10(void)
 		        }
 		        num++;
 	}
-}
-
-int main(void)
-{
-	    print_alphabet_x10();
-	    return 0;
 }
