@@ -3,7 +3,7 @@
 /**
  * main - check the code
  *
- * Return: Always 0
+ * Return: void
  */
 
 void print_alphabet_x10(void)
@@ -19,5 +19,4 @@ void print_alphabet_x10(void)
 		        num++;
 			_putchar('\n');
 	}
-	return (0);
 }
