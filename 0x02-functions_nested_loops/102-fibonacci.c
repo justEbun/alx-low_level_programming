@@ -6,7 +6,7 @@
  * Return: 0
  */
 
-int main (void)
+int main(void)
 {
 	int i = 0;
 	long l = 1, m = 2;
@@ -21,11 +21,11 @@ int main (void)
 		{
 			printf(", %ld", m);
 		}
-		else 
+		else
 		{
 			m += l;
 			l = m - l;
-			printf(", %ld",m);
+			printf(", %ld", m);
 		}
 		i++;
 	}
