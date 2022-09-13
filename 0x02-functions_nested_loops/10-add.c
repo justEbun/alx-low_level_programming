@@ -6,10 +6,10 @@
  * Return: void
  */
 
-int add(int, int)
+int add(int i1, int i2)
 {
 	int result;
 
-	result = int + int;
+	result = i1 + i2;
 	return result;
 }
