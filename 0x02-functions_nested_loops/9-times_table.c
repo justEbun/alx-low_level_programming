@@ -26,12 +26,12 @@ void times_table(void)
 			{
 				_putchar(',');
 				_putchar(' ');
-				_purchar(o + '0');
+				_putchar(o + '0');
 			}
 			else
 			{
 				_putchar(',');
-				_purchar(' ');
+				_putchar(' ');
 				_putchar(t + '0');
 				_putchar(o + '0');
 			}
