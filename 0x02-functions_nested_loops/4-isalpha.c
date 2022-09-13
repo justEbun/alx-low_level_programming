@@ -6,7 +6,7 @@
  * Return: 1 if true, 0 if not
  */
 
-int _isalpha(int c);
+int _isalpha(int c)
 {
 	int a, b;
 
