@@ -2,8 +2,8 @@
 
 /**
  * add - prints the sum of two numbers
- * @i1 - first integer value
- * @i2 - second integer value
+ * @i1: first integer value
+ * @i2: second integer value
  * Return: void
  */
 
