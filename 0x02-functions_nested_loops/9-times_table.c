@@ -10,12 +10,12 @@ void times_table(void)
 {
 	int r, c, p, t, o;
 
-	for (r =0; r <= 9; r++)
+	for (r = 0; r <= 9; r++)
 	{
 		for (c = 0; c <= 9; c++)
 		{
 			p = r * c;
-			t = p /10;
+			t = p / 10;
 			o = p % 10;
 
 			if (c == 0)
@@ -25,6 +25,7 @@ void times_table(void)
 			else if (p < 10)
 			{
 				_putchar(',');
+				_putchar(' ');
 				_putchar(' ');
 				_putchar(o + '0');
 			}
