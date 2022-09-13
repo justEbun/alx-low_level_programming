@@ -2,7 +2,7 @@
 
 /**
  * _isalpha - to check if c is a letter
- *
+ * @c: th integer value
  * Return: 1 if true, 0 if not
  */
 
@@ -16,7 +16,7 @@ int _isalpha(int c)
 	{
 		return (1);
 	}
-	else 
+	else
 	{
 		return (0);
 	}

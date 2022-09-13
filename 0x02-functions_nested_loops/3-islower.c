@@ -2,7 +2,7 @@
 
 /**
  * _islower - print lowercase of c
- *
+ * @c: the integer value
  * Return: 1 if true and 0 if not
  */
 
@@ -16,7 +16,6 @@ int _islower(int c)
 		{
 			return (1);
 		}
-		else
 		{
 			return (0);
 		}
