@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- *
+ * Description - prints fibonacci sequence
  * return: 0
  */
 
