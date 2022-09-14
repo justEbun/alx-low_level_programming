@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * _fibonacci: prints the fibonacci style
+ * _fibonacci: prints the length of string
  * @i: integer value
  * Return: 0
  */
