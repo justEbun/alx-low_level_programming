@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/** 
+/**
  * _fibonacci - prints the length of string
  * @i: integer value
  * Return: 0
