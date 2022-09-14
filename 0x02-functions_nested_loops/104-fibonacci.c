@@ -2,7 +2,8 @@
 
 /**
  * main - Entry point
- *
+ * _fibonacci: prints the flibonacci style
+ * @i: integer value
  * Return: 0
  */
 
@@ -20,7 +21,7 @@ int _fibonacci(int i)
 		i /= 10;
 		l += 1;
 	}
-	return(l);
+	return (l);
 }
 
 int main(void)
