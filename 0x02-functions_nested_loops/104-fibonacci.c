@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 /**
+ * main - Entry point
  * _fibonacci: prints the length of string
  * @i: integer value
  * Return: 0
@@ -23,7 +24,7 @@ int _fibonacci(int i)
 	return (l);
 }
 /**
- * main - print the fibonacci
+ * main - prints the fibonacci
  * Return: 0
  */
 
