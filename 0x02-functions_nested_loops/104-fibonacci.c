@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * _fibonacci: prints the flibonacci style
+ * _fibonacci: prints the fibonacci style
  * @i: integer value
  * Return: 0
  */
