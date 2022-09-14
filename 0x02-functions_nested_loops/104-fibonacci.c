@@ -38,7 +38,7 @@ int main(void)
 			printf("%d", 0);
 			in--;
 		}
-		printf("%lu",fl);
+		printf("%lu", f1);
 
 		tmp = (f1 + f2) % mx;
 		tmpo = f1o + f2o + (f1 + f2) / mx;
@@ -47,7 +47,7 @@ int main(void)
 		f2 = tmp;
 		f2o = tmpo;
 
-		if (i != 98)
+		if (n != 98)
 			printf(", ");
 		else
 			printf("\n");
