@@ -6,7 +6,7 @@
  * Return: 0 if true and 1 if not
  */
 
-int _isdigit(int c);
+int _isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
 	{
