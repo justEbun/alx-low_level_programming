@@ -1,15 +1,17 @@
 #include "main.h"
 
 /**
- * main - to execute the fizz buzz test
- * return: 0
+ * main - To execute the fizz buzz test.
+ * Return: 0
  */
 
 int main(void)
 {
-	int n = 0;
+	int n;
 
-	do {
+	for (n = 0; n <= 100; n++)
+
+	{
 		if (n % 3 == 0)
 		{
 			printf("Fizz ");
@@ -26,8 +28,7 @@ int main(void)
 		{
 			printf("%d ", n);
 		}
-		n++;
-	} while (n <= 100);
+	}
 	putchar('\n');
-	return 0;
+	return (0);
 }
