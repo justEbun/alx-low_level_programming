@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * main - To execute the fizz buzz test.
  * Return: 0
