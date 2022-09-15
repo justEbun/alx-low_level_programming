@@ -26,5 +26,8 @@ int main(void)
 		{
 			printf("%d ", n);
 		}
+		n++;
 	} while (n <= 100);
+	putchar('\n');
+	return 0;
 }
