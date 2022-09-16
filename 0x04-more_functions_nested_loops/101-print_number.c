@@ -8,27 +8,27 @@
 
 void print_number(int n)
 {
-	int d = 1, i = 0, m = 0;
+	unsigned int m, d, count;
 
 	if (n < 0)
 	{
-		_putchar('-');
-		n = -n;
+		_putchar(45);
+		m = n * -1;
 	}
-	while (n / d != 0)
+	else
 	{
-		d *= 10;
-		i++;
+		m = n;
 	}
-	d = d / 10;
+	d = m;
+	count = 1;
 
-	while (m < i)
+	while (d > 9)
 	{
-		_putchar('0' + n / d);
-		n = n - (n / d) * d;
-		d = d / 10;
-		m++;
+		d /= 10;
+		count *= 10;
 	}
-	if (i == 0)
-		_putchar('0' + n);
+	for (; count >= 1; count /= 10)
+	{
+		_putchar(((m / count) % 10) + 48);
+	}
 }
