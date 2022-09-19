@@ -9,9 +9,12 @@
 
 void _puts(char *str)
 {
-	char s[100];
+	int s = 0;
 
-	fgets(s, sizeof(s), stdout);
-	str = (char)printf("%s\n", s);
-	return (str);
+	while(str[s]);
+	{
+		_putchar(str[s]);
+		s++;
+	}
+	_putchar('\n');
 }
