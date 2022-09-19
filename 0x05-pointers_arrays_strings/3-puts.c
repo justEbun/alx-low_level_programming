@@ -4,7 +4,7 @@
 /**
  * _puts - prints a string
  * @str: character value
- * return: void
+ * return: 0
  */
 
 void _puts(char *str)
@@ -12,6 +12,6 @@ void _puts(char *str)
 	char s[100];
 
 	fgets(s, sizeof(s), stdout);
-	str = printf("%s\n", s);
+	str = (char)printf("%s\n", s);
 	return (str);
 }
