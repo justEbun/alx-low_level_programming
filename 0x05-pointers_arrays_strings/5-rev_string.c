@@ -17,10 +17,11 @@ void rev_string(char *s)
 		;
 	mid = len / 2;
 
-	for (int i = 0; i < mid; i++)
+	while (mid--)
 	{
 		t = s[len - i - 1];
 		s[len - i - 1] = s[i];
 	 	s[i]= t;
+		i++;
 	}
 }
