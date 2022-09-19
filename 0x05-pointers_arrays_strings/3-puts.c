@@ -9,8 +9,8 @@
 
 void _puts(char *str)
 {
-	char s[100];
+	char str[100];
 
-	fgets(s, sizeof(s), stdout);
-	printf("%s\n", s);
+	fgets(str, sizeof(str), stdout);
+	printf("%s\n", str);
 }
