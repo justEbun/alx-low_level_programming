@@ -1,1 +1,1 @@
-This is a repo for c programming
+This is for c programming
