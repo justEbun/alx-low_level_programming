@@ -8,6 +8,6 @@ int factorial(int n);
 int _pow_recursion(int x, int y);
 int _sqrt_recursion(int n);
 int is_prime_number(int n);
-void _putchar(char *);
+void _putchar(char n);
 
 #endif /*MAIN_H*/
