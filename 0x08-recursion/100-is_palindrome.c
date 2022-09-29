@@ -5,7 +5,7 @@ int _pali(char *s, int len, int i);
 int is_palindrome(char *s);
 
 /**
- * strlen - Returns the length of a string
+ * _strlen - Returns the length of a string
  * @s: The string
  * Return: The length
  */
