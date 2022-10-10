@@ -24,9 +24,11 @@ dog_t *new_dog(char *name, float age, char *owner)
 	if (bingo == NULL)
 		return (NULL);
 
+	n = malloc(sizeof(name));
 	strcpy(n, name);
 	if (n == NULL)
 	{
+		free(n);
 		free(bingo);
 		return (NULL);
 	}
@@ -34,9 +36,11 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	(*bingo).age = age;
 
+	o = malloc(sizeof(owner));
 	strcpy(o, owner);
 	if (o == NULL)
 	{
+		free(o);
 		free(bingo);
 		return (NULL);
 	}
