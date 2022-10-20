@@ -25,10 +25,10 @@ list_t *add_node_end(list_t **head, const char *str)
 		return (NULL);
 	}
 
-	for (n = 0; str[i]; n++)
+	for (n = 0; str[n]; n++)
 		;
 	new->str = dup;
-	new->n = n;
+	new->len = n;
 	new->next = NULL;
 
 	if (*head == NULL)
